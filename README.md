@@ -12,12 +12,8 @@ A simple macOS menu bar application to display the status of your Bambu Lab prin
 ## Usage
 
 1.  Launch the application.
-2.  (If necessary - add details here if configuration is needed, e.g., entering IP address or access code via a menu item or prompt).
-3.  The menu bar icon will show the current status of your printer.
-
-## Development
-
-(Optional: Add details about setting up the development environment, building, etc. if desired)
+2.  On the first launch, you will be prompted to enter your printer's IP address and access code.
+3.  Once configured, the menu bar icon will show the current status of your printer.
 
 ## License
 
