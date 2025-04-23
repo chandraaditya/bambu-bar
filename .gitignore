@@ -9,4 +9,13 @@ __pycache__/
 .bambu_status_app_state.json
 
 # macOS system files
-.DS_Store 
+.DS_Store
+
+# py2app build artifacts
+build/
+dist/
+
+# Generated files
+*.dmg
+icon.icns
+icon.iconset 
