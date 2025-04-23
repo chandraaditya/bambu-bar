@@ -1,21 +1,7 @@
-# Python virtual environment
 .venv/
-
-# Python cache files
-__pycache__/
-*.py[cod]
-
-# Application state file (contains secrets)
-.bambu_status_app_state.json
-
-# macOS system files
-.DS_Store
-
-# py2app build artifacts
 build/
 dist/
-
-# Generated files
-*.dmg
-icon.icns
-icon.iconset 
+*.pyc
+__pycache__/
+.DS_Store
+BambuStatusMenuApp.spec

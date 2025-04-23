@@ -10,8 +10,9 @@ VERSION = "0.1.0"
 
 DATA_FILES = []
 OPTIONS = {
-    'argv_emulation': True,
+    # 'argv_emulation': True, # Disabled as it seems to cause Carbon framework error
     'packages': ['paho', 'rumps'], # Explicitly include paho-mqtt and rumps
+    'includes': ['jaraco'],       # Force include the jaraco namespace
     'plist': {
         'CFBundleName': APP_NAME,
         'CFBundleDisplayName': APP_NAME,
