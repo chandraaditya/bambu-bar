@@ -1,2 +1,3 @@
 paho-mqtt
-rumps 
+rumps
+py2app # For building macOS .app bundle 
